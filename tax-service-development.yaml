@@ -17,4 +17,4 @@ eureka:
     service-url:
       defaultZone: http://localhost:8100/eureka
       
-message: Welcome to development Message v1
+message: Welcome to development Message v2
