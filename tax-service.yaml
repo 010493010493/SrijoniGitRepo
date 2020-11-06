@@ -15,6 +15,6 @@ eureka:
   
   client:
     service-url:
-      defaultZone: http://192.168.99.100/eureka
+      defaultZone: http://192.168.99.100:8100/eureka
       
 message: Welcome to Message
