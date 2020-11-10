@@ -1,0 +1,13 @@
+package com.ibm.convertamountservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ConvertamountApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ConvertamountApplication.class, args);
+	}
+
+}

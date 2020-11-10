@@ -1,0 +1,29 @@
+package com.ibm.currencyconvertservice.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ibm.currencyconvertservice.converter.CurrencyConverter;
+import com.ibm.currencyconvertservice.dto.CurrencyDTO;
+import com.ibm.currencyconvertservice.entity.Currency;
+import com.ibm.currencyconvertservice.repository.CurrencyRepository;
+
+@Service
+public class CurrencyConverterService {
+	
+	@Autowired
+	CurrencyRepository currencyRepo;
+	
+public Currency createCurrency(CurrencyDTO dto) {
+		
+		CurrencyConverter converter = new CurrencyConverter();
+		return currencyRepo.save(converter.convertToEntity(dto));
+	}
+
+public Currency updateCurrency(CurrencyDTO dto) {
+	
+	CurrencyConverter converter = new CurrencyConverter();
+	return currencyRepo.save(converter.convertToEntityForUpdate(dto, id)(dto));
+}
+
+}

@@ -1,0 +1,5 @@
+package com.ibm.currencyconvertservices.repository;
+
+public class CurrencyRepository {
+
+}

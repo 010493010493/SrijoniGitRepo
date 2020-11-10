@@ -1,0 +1,15 @@
+package com.ibm.convertamountservice.restclient;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
+
+
+@FeignClient("currency-service")
+public interface CurrencyConvertClient {
+	
+	@GetMapping("/amount/{id}") 
+	public Double getAmount(@PathVariable(value="id")Long id,@RequestParam(value="countryCode")String code);
+
+}

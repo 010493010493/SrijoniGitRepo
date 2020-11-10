@@ -1,0 +1,21 @@
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.int}
+    
+  client:
+    service-url:
+      defaultZone:  http://192.168.99.100:8100/eureka
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        
+        
+spring:
+  rabbitmq:
+    host: 192.168.99.100
+    port: 5672
+    username: guest
+    password: guest

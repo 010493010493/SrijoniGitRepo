@@ -1,0 +1,5 @@
+package com.ibm.convertamountservice.controller;
+
+public class ConvertAmountController {
+
+}

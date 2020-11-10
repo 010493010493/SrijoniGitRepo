@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.openfeign.FeignClient"/>
+<fullyQualifiedTypeName name="com.ibm.productservice.service.ProductService"/>
+<fullyQualifiedTypeName name="com.ibm.productservice.restclient.TaxClient"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.openfeign.EnableFeignClients"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="com.ibm.taxservice.repository.TaxRepository"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.ibm.taxservice.entity.Tax"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.netflix.hystrix.EnableHystrix"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard"/>
+<fullyQualifiedTypeName name="com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand"/>
+<fullyQualifiedTypeName name="com.ibm.productservice.dto.ProductDTO"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.client.discovery.EnableDiscoveryClient"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.config.server.EnableConfigServer"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.context.config.annotation.RefreshScope"/>
+</qualifiedTypeNameHistroy>

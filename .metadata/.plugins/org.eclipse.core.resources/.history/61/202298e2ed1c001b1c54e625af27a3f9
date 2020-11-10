@@ -1,0 +1,5 @@
+package com.ibm.productservice.entity;
+
+public class ProductEntity {
+
+}

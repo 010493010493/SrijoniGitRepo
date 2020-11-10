@@ -1,0 +1,5 @@
+package com.ibm.currencyconvertservice.dto;
+
+public class CurrencyDTO {
+
+}

@@ -1,0 +1,5 @@
+package com.ibm.convertamountservice.dto;
+
+public class AmountDTO {
+
+}

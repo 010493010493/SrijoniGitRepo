@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: convertamount-service
+      
+server:
+  port: 8600
+  
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.int}
+  
+  client:
+    service-url:
+      defaultZone: http://localhost:8100/eureka

@@ -1,0 +1,16 @@
+package com.ibm.convertamountservice.service;
+
+import org.springframework.stereotype.Service;
+
+import com.ibm.convertamountservice.restclient.CurrencyConvertClient;
+
+@Service
+public class ConvertAmountService {
+	
+	final CurrencyConvertClient currencyClient;
+	
+	public ConvertAmountService(CurrencyConvertClient currencyClient) {
+		this.currencyClient=currencyClient;
+	}
+
+}

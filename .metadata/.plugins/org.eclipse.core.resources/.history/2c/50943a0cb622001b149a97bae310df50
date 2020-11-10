@@ -1,0 +1,42 @@
+package com.ibm.convertamountservice.service;
+
+import java.util.Optional;
+
+import org.springframework.stereotype.Service;
+
+import com.ibm.convertamountservice.dto.AmountDTO;
+import com.ibm.convertamountservice.restclient.CurrencyConvertClient;
+import com.ibm.productservice.converter.ProductConverter;
+import com.ibm.productservice.dto.ProductDTO;
+import com.ibm.productservice.entity.Product;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+
+@Service
+public class ConvertAmountService {
+	
+	final CurrencyConvertClient currencyClient;
+	
+	public ConvertAmountService(CurrencyConvertClient currencyClient) {
+		this.currencyClient=currencyClient;
+	}
+	
+	@HystrixCommand(fallbackMethod ="currencyServiceFallback")
+	public AmountDTO getAmount(Long id,String code,Double amount) {
+		
+		AmountDTO dto = new AmountDTO();
+		Double conversionFactor=currencyClient.getAmount(id, code);
+		dto.setAmount(amount*conversionFactor);
+		dto.setCountryCode(code);
+		
+		return dto;
+	}
+	
+	public AmountDTO currencyServiceFallback(Long id, String code, Double amount) {
+			
+			AmountDTO dto=null;
+			Double conversionFactor = 1.0;
+			dto.setAmount(amount*conversionFactor);
+			dto.setCountryCode(code);
+			}
+
+}

@@ -1,0 +1,5 @@
+package com.ibm.currencyconvertservice.entity;
+
+public class Currency {
+
+}

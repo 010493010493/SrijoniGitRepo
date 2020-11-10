@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: convertamount-service
+      
+server:
+  port: 8600

@@ -1,0 +1,18 @@
+package com.ibm.currencyconvertservice.service;
+
+import com.ibm.currencyconvertservice.converter.CurrencyConverter;
+import com.ibm.currencyconvertservice.dto.CurrencyDTO;
+import com.ibm.currencyconvertservice.entity.Currency;
+import com.ibm.productservice.converter.ProductConverter;
+import com.ibm.productservice.dto.ProductDTO;
+import com.ibm.productservice.entity.Product;
+
+public class CurrencyConverterService {
+	
+public Currency createProduct(CurrencyDTO dto) {
+		
+		CurrencyConverter converter = new CurrencyConverter();
+		return productRepo.save(converter.convertToEntity(dto));
+	}
+
+}

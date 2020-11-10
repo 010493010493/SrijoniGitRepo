@@ -1,0 +1,5 @@
+package com.ibm.taxservice.entity;
+
+public class Tax {
+
+}

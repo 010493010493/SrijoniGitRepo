@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config-server
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${git.uri:https://github.com/010493010493/SrijoniGitRepo.git}
+          username: 010493010493
+          password: 7c33eb907fb14649ff3e5ca3ae7596147a96c5f1
+          clone-on-start: true
+          
+server:
+  port: 8110

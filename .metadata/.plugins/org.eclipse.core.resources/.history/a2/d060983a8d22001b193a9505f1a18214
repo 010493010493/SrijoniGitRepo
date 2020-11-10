@@ -1,0 +1,5 @@
+package com.ibm.convertamountservice.restclient;
+
+public class CurrencyConvertClient {
+
+}

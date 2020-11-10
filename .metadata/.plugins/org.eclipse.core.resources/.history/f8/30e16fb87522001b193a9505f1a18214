@@ -1,0 +1,5 @@
+package com.ibm.currencyconvertservice.controller;
+
+public class CurrencyConversionController {
+
+}

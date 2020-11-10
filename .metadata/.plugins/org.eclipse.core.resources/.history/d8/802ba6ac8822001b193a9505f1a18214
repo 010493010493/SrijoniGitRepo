@@ -1,0 +1,43 @@
+package com.ibm.currencyconvertservice.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ibm.currencyconvertservice.converter.CurrencyConverter;
+import com.ibm.currencyconvertservice.dto.CurrencyDTO;
+import com.ibm.currencyconvertservice.entity.Currency;
+import com.ibm.currencyconvertservice.repository.CurrencyRepository;
+
+@Service
+public class CurrencyConverterService {
+	
+	@Autowired
+	CurrencyRepository currencyRepo;
+	
+public Currency createCurrency(CurrencyDTO dto) {
+		
+		CurrencyConverter converter = new CurrencyConverter();
+		return currencyRepo.save(converter.convertToEntity(dto));
+	}
+
+public Currency updateCurrency(CurrencyDTO dto, Long id) {
+	
+	CurrencyConverter converter = new CurrencyConverter();
+	return currencyRepo.save(converter.convertToEntityForUpdate(dto, id));
+}
+
+public Double getCurrency(Long id,String code) {
+	
+	Optional<Currency> currency = currencyRepo.findById(id);
+	if(currency.isPresent()) {
+		if(currency.get().getCountryCode().equalsIgnoreCase(code)){
+			return currency.get().getConversionFactor();
+		}
+	} else {
+		throw new Exception();
+	}
+}
+
+}
