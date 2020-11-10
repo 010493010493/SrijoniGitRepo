@@ -1,5 +1,7 @@
 package com.ibm.currencyconvertservices.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -23,6 +25,8 @@ public class ConversionController {
 	@Autowired
 	CurrencyConvertService service;
 	
+	Logger logger = LoggerFactory.getLogger(ConversionController.class);
+	
 	@PostMapping("/create")
 	public ResponseEntity<Currency> create(@RequestBody CurrencyDTO dto) {
 		
@@ -45,6 +49,18 @@ public class ConversionController {
 			} catch(Exception e) {
 				return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
 			}
+	}
+	
+	@GetMapping("/{id}")
+	public Double getConversionFactor(@PathVariable(value = "id") Long id, @RequestParam(value = "countryCode") String code){
+		Currency currency = new Currency();
+		try {
+			return service.getCurrency(id, code).getConversionFactor();
+			} catch(Exception e) {
+				logger.error(e.getMessage());
+			}
+		
+		return currency.getConversionFactor();
 	}
 
 }
