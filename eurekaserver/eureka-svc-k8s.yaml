@@ -1,0 +1,19 @@
+--- 
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app: eurekaserviceproject
+    version: v1
+  name: eurekaserviceproject
+spec: 
+  ports: 
+    - 
+      name: http
+      port: 8100
+      targetPort: 8100
+
+  selector: 
+    app: eurekaserviceproject
+    version: v1
+  type: NodePort
