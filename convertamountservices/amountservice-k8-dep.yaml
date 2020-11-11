@@ -1,0 +1,34 @@
+--- 
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  labels: 
+    app: amountserviceproject
+    version: v1
+  name: amountserviceproject
+spec: 
+  strategy: # Default, so usually not specified
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1  # specifies the maximum number of Pods that can be created over the desired number of Pods
+      maxUnavailable: 25% #specifies the maximum number of Pods that can be unavailable during the update process
+  replicas: 1
+  selector: 
+    matchLabels: 
+      app: amountserviceproject
+      version: v1
+  template: 
+    metadata: 
+      labels: 
+        app: amountserviceproject
+        version: v1
+
+    spec: 
+
+      containers: 
+        - 
+          image: "010493010493/amountservice"
+          imagePullPolicy: Always
+          name: amountserviceproject
+
+                          

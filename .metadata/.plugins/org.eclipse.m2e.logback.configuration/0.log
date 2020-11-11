@@ -9691,3 +9691,191 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-11-10 22:27:52,260 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-11-10 22:27:52,263 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-11-10 22:27:52,263 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 17:18:22,207 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-11 17:18:27,684 [Worker-9: Launching convertamountservices (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices
+2020-11-11 17:18:27,685 [Worker-9: Launching convertamountservices (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean package
+2020-11-11 17:18:58,004 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:18:58,006 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 17:18:58,011 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 17:18:58,013 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:18:58,013 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices\src\test\resources
+2020-11-11 17:19:13,043 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-11 17:19:18,870 [Worker-9: Launching currencyconvertservices (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices
+2020-11-11 17:19:18,870 [Worker-9: Launching currencyconvertservices (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean package
+2020-11-11 17:19:49,346 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:19:49,347 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 17:19:49,350 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 17:19:49,353 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:19:49,353 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 17:31:05,150 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:31:05,151 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 17:31:05,151 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 17:31:05,155 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:31:05,155 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 17:38:55,869 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:38:55,871 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 17:38:55,876 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 17:38:55,886 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:38:55,886 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices\src\test\resources
+2020-11-11 17:45:29,820 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:45:29,821 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 17:45:29,824 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 17:45:29,827 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:45:29,827 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 17:46:17,128 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:46:17,129 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 17:46:17,131 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 17:46:17,134 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:46:17,134 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices\src\test\resources
+2020-11-11 17:46:28,539 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-11 17:46:34,613 [Worker-9: Launching currencyconvertservices (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices
+2020-11-11 17:46:34,614 [Worker-9: Launching currencyconvertservices (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean package
+2020-11-11 17:47:14,967 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:47:14,968 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 17:47:14,972 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 17:47:14,975 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:47:14,975 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 17:47:27,758 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-11 17:47:33,232 [Worker-9: Launching convertamountservices (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices
+2020-11-11 17:47:33,232 [Worker-9: Launching convertamountservices (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean package
+2020-11-11 17:48:08,005 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:48:08,006 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 17:48:08,009 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 17:48:08,011 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 17:48:08,012 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices\src\test\resources
+2020-11-11 19:38:08,368 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:38:08,370 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 19:38:08,373 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 19:38:08,384 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:38:08,384 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 19:38:17,665 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:38:17,666 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 19:38:17,670 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 19:38:17,672 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:38:17,672 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices\src\test\resources
+2020-11-11 19:38:38,466 [Worker-20: Launching Executing clean in C__Users_w2cluster589_Documents_virtualLabsNov02_convertamountservices] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices
+2020-11-11 19:38:38,467 [Worker-20: Launching Executing clean in C__Users_w2cluster589_Documents_virtualLabsNov02_convertamountservices] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean
+2020-11-11 19:38:43,747 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:38:43,748 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 19:38:43,752 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 19:38:43,760 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:38:43,760 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices\src\test\resources
+2020-11-11 19:38:49,415 [Worker-22: Launching Executing clean in C__Users_w2cluster589_Documents_virtualLabsNov02_convertamountservices] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices
+2020-11-11 19:38:49,415 [Worker-22: Launching Executing clean in C__Users_w2cluster589_Documents_virtualLabsNov02_convertamountservices] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean
+2020-11-11 19:38:53,585 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:38:53,587 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 19:38:53,591 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 19:38:53,594 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:38:53,594 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices\src\test\resources
+2020-11-11 19:39:03,278 [Worker-22: Launching Executing clean in C__Users_w2cluster589_Documents_virtualLabsNov02_convertamountservices] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices
+2020-11-11 19:39:03,278 [Worker-22: Launching Executing clean in C__Users_w2cluster589_Documents_virtualLabsNov02_convertamountservices] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean
+2020-11-11 19:39:07,468 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:39:07,469 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 19:39:07,476 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 19:39:07,479 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:39:07,479 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices\src\test\resources
+2020-11-11 19:39:57,625 [Worker-9: Launching Executing clean in C__Users_w2cluster589_Documents_virtualLabsNov02_currencyconvertservices] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices
+2020-11-11 19:39:57,626 [Worker-9: Launching Executing clean in C__Users_w2cluster589_Documents_virtualLabsNov02_currencyconvertservices] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean
+2020-11-11 19:40:01,320 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:40:01,321 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 19:40:01,326 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 19:40:01,328 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:40:01,328 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 19:40:43,702 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-11-11 19:40:45,823 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ibm:convertamountservices:0.0.1-SNAPSHOT @ C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices\pom.xml.
+2020-11-11 19:40:48,254 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ibm:currencyconvertservices:0.0.1-SNAPSHOT @ C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\pom.xml.
+2020-11-11 19:40:49,469 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /convertamountservices/src/main/java
+2020-11-11 19:40:49,470 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /convertamountservices/src/main/resources
+2020-11-11 19:40:49,470 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /convertamountservices/src/main/resources
+2020-11-11 19:40:49,471 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /convertamountservices/src/test/java
+2020-11-11 19:40:50,313 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currencyconvertservices/src/main/java
+2020-11-11 19:40:50,314 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currencyconvertservices/src/main/resources
+2020-11-11 19:40:50,315 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currencyconvertservices/src/main/resources
+2020-11-11 19:40:50,316 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currencyconvertservices/src/test/java
+2020-11-11 19:40:51,339 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2020-11-11 19:40:52,855 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:40:52,856 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 19:40:52,862 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 19:40:52,866 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:40:52,867 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices\src\test\resources
+2020-11-11 19:40:54,312 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:40:54,313 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 19:40:54,314 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 19:40:54,319 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:40:54,319 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 19:40:55,034 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-11 19:41:04,991 [Worker-21: Launching currencyconvertservices (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices
+2020-11-11 19:41:04,991 [Worker-21: Launching currencyconvertservices (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean package
+2020-11-11 19:42:31,849 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:42:31,850 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 19:42:31,855 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 19:42:31,858 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:42:31,858 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 19:42:44,615 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-11 19:42:50,058 [Worker-22: Launching convertamountservices (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices
+2020-11-11 19:42:50,058 [Worker-22: Launching convertamountservices (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean package
+2020-11-11 19:43:19,208 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:43:19,209 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 19:43:19,212 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 19:43:19,214 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 19:43:19,214 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices\src\test\resources
+2020-11-11 20:28:58,878 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:28:58,881 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 20:28:58,884 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 20:28:58,886 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:28:58,886 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices\src\test\resources
+2020-11-11 20:29:16,309 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:29:16,310 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 20:29:16,312 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 20:29:16,315 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:29:16,315 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 20:43:58,532 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:43:58,534 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 20:43:58,537 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 20:43:58,540 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:43:58,541 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 20:44:11,874 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:44:11,875 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 20:44:11,878 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 20:44:11,879 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:44:11,879 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 20:55:25,825 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-11 20:55:31,193 [Worker-20: Launching currencyconvertservices (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices
+2020-11-11 20:55:31,193 [Worker-20: Launching currencyconvertservices (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean package
+2020-11-11 20:56:02,020 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:56:02,021 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 20:56:02,026 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 20:56:02,028 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:56:02,029 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 20:56:18,543 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-11 20:56:22,900 [Worker-21: Launching convertamountservices (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices
+2020-11-11 20:56:22,900 [Worker-21: Launching convertamountservices (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean package
+2020-11-11 20:56:54,516 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:56:54,518 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 20:56:54,525 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 20:56:54,532 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:56:54,532 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices\src\test\resources
+2020-11-11 20:58:34,653 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:58:34,653 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 20:58:34,656 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 20:58:34,658 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:58:34,658 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 20:58:42,794 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:58:42,795 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 20:58:42,798 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 20:58:42,802 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 20:58:42,802 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices\src\test\resources
+2020-11-11 20:58:55,400 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-11 20:58:59,774 [Worker-21: Launching currencyconvertservices (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices
+2020-11-11 20:58:59,774 [Worker-21: Launching currencyconvertservices (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean package
+2020-11-11 20:59:09,615 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-11 20:59:27,761 [Worker-23: Launching convertamountservices (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\convertamountservices
+2020-11-11 20:59:27,761 [Worker-23: Launching convertamountservices (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean package
+2020-11-11 21:11:05,587 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 21:11:05,588 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-11 21:11:05,590 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-11 21:11:05,593 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 21:11:05,593 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices\src\test\resources
+2020-11-11 21:11:15,638 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-11 21:11:21,641 [Worker-18: Launching currencyconvertservices (6)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\w2cluster589\Documents\virtualLabsNov02\currencyconvertservices
+2020-11-11 21:11:21,642 [Worker-18: Launching currencyconvertservices (6)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean package

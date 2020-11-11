@@ -1,0 +1,19 @@
+--- 
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app: amountserviceproject
+    version: v1
+  name: amountserviceproject
+spec: 
+  ports: 
+    - 
+      name: http
+      port: 8600
+      targetPort: 8600
+
+  selector: 
+    app: amountserviceproject
+    version: v1
+  type: NodePort
