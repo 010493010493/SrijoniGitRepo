@@ -2,9 +2,6 @@ server:
   port: 8500
   
 spring:
-  application:
-    name: currency-service
-    
   datasource:
     url: jdbc:h2:mem:currencydb
     driver-class-name: org.h2.Driver
@@ -26,9 +23,16 @@ spring:
     
 eureka:
   instance:
-    instance-id: ${spring.application.name}:${random.int}
-  
+    instanceId: ${spring.application.name}:${random.int}
+    leaseRenewalIntervalInSeconds: 2
+    leaseExpirationDurationInSeconds: 5
+    preferIpAddress: true
+    metadata-map:
+      zone: A
   client:
-    service-url:
+    registerWithEureka: true
+    fetchRegistry: true
+    prefer-same-zone-eureka: true
+    serviceUrl:
       defaultZone: http://192.168.99.100:8100/eureka
       
