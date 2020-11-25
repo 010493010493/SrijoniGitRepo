@@ -1,0 +1,112 @@
+********************************************************************************
+product = Open Liberty 20.0.0.5 (wlp-1.0.40.cl200520200429-1655)
+wlp.install.dir = C:/Users/w2cluster589/Documents/virtualLabsNov02/app-id-sample-java/WebApplication/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk1.8.0_161\jre
+java.version = 1.8.0_161
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_161-b12)
+os = Windows 10 (10.0; amd64) (en_IN)
+process = 6176@w2cluster647
+********************************************************************************
+[25/11/20 19:38:35:848 IST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server sample has been launched.
+[25/11/20 19:38:36:998 IST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1.775 seconds
+[25/11/20 19:38:37:565 IST] 00000020 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[25/11/20 19:38:38:441 IST] 00000014 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[25/11/20 19:38:38:683 IST] 00000018 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[25/11/20 19:38:38:786 IST] 00000018 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[25/11/20 19:38:38:787 IST] 00000018 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[25/11/20 19:38:38:788 IST] 00000018 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[25/11/20 19:38:39:226 IST] 00000014 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[25/11/20 19:38:39:262 IST] 0000002d com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.074 seconds.
+[25/11/20 19:38:39:410 IST] 00000014 com.ibm.ws.security.wim.VMMService                           I CWIMK0009I: The user registry federation service is ready.
+[25/11/20 19:38:39:416 IST] 00000014 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0008I: The security service is ready.
+[25/11/20 19:38:39:429 IST] 0000001c com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: C:/Users/w2cluster589/Documents/virtualLabsNov02/app-id-sample-java/WebApplication/target/liberty/wlp/usr/servers/sample/resources/security/key.p12 of type: PKCS12
+[25/11/20 19:38:39:519 IST] 00000014 com.ibm.ws.security.oauth20.web.OAuth20EndpointServices      I CWWKS1410I: The OAuth endpoint service is activated.
+[25/11/20 19:38:39:551 IST] 00000014 com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: The JSON Web Token (JWT) consumer service is available.
+[25/11/20 19:38:39:566 IST] 00000014 com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: The JSON Web Token (JWT) endpoint service is available.
+[25/11/20 19:38:39:838 IST] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application libertySample-1.0.0.
+[25/11/20 19:38:39:841 IST] 0000002c bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0133I: The libertySample-1.0.0 application at the C:\Users\w2cluster589\Documents\virtualLabsNov02\app-id-sample-java\WebApplication\target\liberty\wlp\usr\servers\sample\apps\libertySample-1.0.0.war location is being expanded to the C:\Users\w2cluster589\Documents\virtualLabsNov02\app-id-sample-java\WebApplication\target\liberty\wlp\usr\servers\sample\apps\expanded\libertySample-1.0.0.war directory.
+[25/11/20 19:38:40:034 IST] 00000025 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: com.ibm.oauth.test.war.
+[25/11/20 19:38:40:038 IST] 0000002b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: OpenID Connect Client Redirect Servlet.
+[25/11/20 19:38:40:036 IST] 00000025 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module com.ibm.oauth.test.war has been bound to default_host.
+[25/11/20 19:38:40:038 IST] 0000002b com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module OpenID Connect Client Redirect Servlet has been bound to default_host.
+[25/11/20 19:38:40:040 IST] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://w2cluster647.iiht.tech:9080/oauth2/
+[25/11/20 19:38:40:048 IST] 0000002b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://w2cluster647.iiht.tech:9080/oidcclient/
+[25/11/20 19:38:40:089 IST] 00000030 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[25/11/20 19:38:40:107 IST] 0000002b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/oidcclient
+[25/11/20 19:38:40:110 IST] 00000025 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/oauth2
+[25/11/20 19:38:40:118 IST] 0000002b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[25/11/20 19:38:40:128 IST] 00000025 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[25/11/20 19:38:40:160 IST] 00000027 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: com.ibm.ws.security.jwt.
+[25/11/20 19:38:40:161 IST] 00000027 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module com.ibm.ws.security.jwt has been bound to default_host.
+[25/11/20 19:38:40:161 IST] 00000027 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://w2cluster647.iiht.tech:9080/jwt/
+[25/11/20 19:38:40:187 IST] 00000025 com.ibm.ws.jsp                                               I JSPG8502I: The value of the JSP attribute jdkSourceLevel is "15".
+[25/11/20 19:38:40:212 IST] 00000027 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/jwt
+[25/11/20 19:38:40:212 IST] 00000027 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[25/11/20 19:38:40:215 IST] 0000002b com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[25/11/20 19:38:40:256 IST] 0000002b com.ibm.ws.webcontainer.security.ServletStartedListener      I CWWKS9122I:  For URL /redirect/* in application com.ibm.ws.security.openidconnect.client, the following HTTP methods are uncovered, and accessible: GET POST PUT DELETE HEAD OPTIONS TRACE 
+[25/11/20 19:38:40:257 IST] 00000025 com.ibm.ws.webcontainer.security.ServletStartedListener      I CWWKS9122I:  For URL /login.jsp in application com.ibm.ws.security.oauth.2.0, the following HTTP methods are uncovered, and accessible: PUT DELETE HEAD OPTIONS TRACE 
+[25/11/20 19:38:40:258 IST] 00000025 com.ibm.ws.webcontainer.security.ServletStartedListener      I CWWKS9122I:  For URL /declarativeEndpoint/* in application com.ibm.ws.security.oauth.2.0, the following HTTP methods are uncovered, and accessible: PUT DELETE HEAD OPTIONS TRACE 
+[25/11/20 19:38:40:258 IST] 00000025 com.ibm.ws.webcontainer.security.ServletStartedListener      I CWWKS9122I:  For URL /clientMetatype in application com.ibm.ws.security.oauth.2.0, the following HTTP methods are uncovered, and accessible: POST PUT DELETE HEAD OPTIONS TRACE 
+[25/11/20 19:38:40:481 IST] 0000002c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: libertySample-1.0.0.
+[25/11/20 19:38:40:481 IST] 0000002c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module libertySample-1.0.0 has been bound to default_host.
+[25/11/20 19:38:40:481 IST] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://w2cluster647.iiht.tech:9080/appidSample/
+[25/11/20 19:38:40:484 IST] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application libertySample-1.0.0 started in 0.646 seconds.
+[25/11/20 19:38:40:485 IST] 00000031 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/appidSample
+[25/11/20 19:38:40:485 IST] 00000031 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[25/11/20 19:38:40:510 IST] 00000020 com.ibm.ws.tcpchannel.internal.TCPPort                       E CWWKO0221E: TCP Channel defaultHttpEndpoint initialization did not succeed.  The socket bind did not succeed for host * and port 9080.  The port might already be in use.  Exception Message: Address already in use: bind
+[25/11/20 19:38:40:511 IST] 00000020 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host * port 9080.
+[25/11/20 19:38:40:511 IST] 00000020 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0028I: Web application moved (default_host): https://w2cluster647.iiht.tech:9443/oidcclient/
+[25/11/20 19:38:40:511 IST] 00000020 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0028I: Web application moved (default_host): https://w2cluster647.iiht.tech:9443/jwt/
+[25/11/20 19:38:40:512 IST] 00000020 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0028I: Web application moved (default_host): https://w2cluster647.iiht.tech:9443/appidSample/
+[25/11/20 19:38:40:512 IST] 00000020 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0028I: Web application moved (default_host): https://w2cluster647.iiht.tech:9443/oauth2/
+[25/11/20 19:38:40:514 IST] 00000020 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host *  (IPv6) port 9443.
+[25/11/20 19:38:40:562 IST] 00000020 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [appSecurity-2.0, distributedMap-1.0, federatedRegistry-1.0, jndi-1.0, json-1.0, jsp-2.2, ldapRegistry-3.0, oauth-2.0, openidConnectClient-1.0, servlet-3.1, ssl-1.0].
+[25/11/20 19:38:40:563 IST] 00000020 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 4.648 seconds.
+[25/11/20 19:38:40:563 IST] 00000020 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The sample server is ready to run a smarter planet. The sample server started in 6.423 seconds.
+[25/11/20 19:38:40:574 IST] 00000030 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\w2cluster589\Documents\virtualLabsNov02\app-id-sample-java\WebApplication\target\liberty\wlp\usr\servers\sample\logs\state\plugin-cfg.xml.
+[25/11/20 19:38:40:669 IST] 00000031 com.ibm.ws.webcontainer.security.ServletStartedListener      I CWWKS9122I:  For URL /ProtectedServlet/* in application libertySample-1.0.0, the following HTTP methods are uncovered, and accessible: HEAD OPTIONS TRACE 
+[25/11/20 19:38:40:702 IST] 00000022 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\w2cluster589\Documents\virtualLabsNov02\app-id-sample-java\WebApplication\target\liberty\wlp\usr\servers\sample\logs\state\plugin-cfg.xml.
+[25/11/20 19:38:54:917 IST] 0000003c .security.openidconnect.client.internal.OidcClientConfigImpl I CWWKS1700I: OpenID Connect client MyRP configuration successfully processed.
+[25/11/20 19:38:54:961 IST] 0000003c com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "java.security.PrivilegedActionException: java.net.MalformedURLException: For input string: "${env.APPID_SAMPLE_SSL_PORT}" com.ibm.ws.security.openidconnect.clients.common.OIDCClientAuthenticatorUtil 380" at ffdc_20.11.25_19.38.54.0.log
+[25/11/20 19:38:55:150 IST] 0000003c com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "java.lang.IllegalStateException: Cannot forward. Response already committed. com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105" at ffdc_20.11.25_19.38.54.1.log
+[25/11/20 19:38:55:151 IST] 0000003c com.ibm.ws.webcontainer.webapp                               E SRVE0315E: An exception occurred: java.lang.Throwable: java.lang.IllegalStateException: Cannot forward. Response already committed.
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5079)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1134)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:415)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:374)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:551)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:484)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:346)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:317)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.determineNextChannel(SSLConnectionLink.java:1100)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.readyInboundPostHandshake(SSLConnectionLink.java:757)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink$MyHandshakeCompletedCallback.complete(SSLConnectionLink.java:427)
+	at com.ibm.ws.channel.ssl.internal.SSLUtils.handleHandshake(SSLUtils.java:953)
+	at com.ibm.ws.channel.ssl.internal.SSLHandshakeIOCallback.complete(SSLHandshakeIOCallback.java:85)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Cannot forward. Response already committed.
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.dispatch(WebAppRequestDispatcher.java:1153)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.forward(WebAppRequestDispatcher.java:171)
+	at com.ibm.ws.webcontainer.extension.DefaultExtensionProcessor.handleRequest(DefaultExtensionProcessor.java:790)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1226)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5021)
+	... 23 more
+
+[25/11/20 19:38:55:171 IST] 0000003c com.ibm.ws.webcontainer.srt                                  W SRVE8115W: WARNING: Cannot set status. Response already committed.
+[25/11/20 19:38:55:172 IST] 0000003c com.ibm.ws.webcontainer.srt                                  W SRVE8094W: WARNING: Cannot set header. Response already committed.  Stack trace of errant attempt to set header: 
+        at com.ibm.ws.webcontainer.srt.SRTServletResponse.addHeader(SRTServletResponse.java:2199)
+        at [internal classes].(Unknown Source)
+
+[25/11/20 19:39:03:686 IST] 00000050 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.security.openidconnect.client] [/oidcclient] [OpenIdConnectClientRedirectServlet]: Initialization successful.
+[25/11/20 19:39:07:200 IST] 0000004c com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [libertySample-1.0.0] [/appidSample] [ProtectedServlet]: Initialization successful.
+[25/11/20 19:39:07:680 IST] 0000004c com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [libertySample-1.0.0] [/appidSample] [/protected.jsp]: Initialization successful.

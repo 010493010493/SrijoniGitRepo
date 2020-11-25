@@ -1,0 +1,27 @@
+Launching sample (Open Liberty 20.0.0.5/wlp-1.0.40.cl200520200429-1655) on Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_161-b12 (en_IN)
+[AUDIT   ] CWWKE0001I: The server sample has been launched.
+[AUDIT   ] CWWKZ0058I: Monitoring dropins for applications.
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://w2cluster647.iiht.tech:9080/oauth2/
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://w2cluster647.iiht.tech:9080/oidcclient/
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://w2cluster647.iiht.tech:9080/jwt/
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://w2cluster647.iiht.tech:9080/appidSample/
+[AUDIT   ] CWWKZ0001I: Application libertySample-1.0.0 started in 0.646 seconds.
+[ERROR   ] CWWKO0221E: TCP Channel defaultHttpEndpoint initialization did not succeed.  The socket bind did not succeed for host * and port 9080.  The port might already be in use.  Exception Message: Address already in use: bind
+[AUDIT   ] CWWKT0028I: Web application moved (default_host): https://w2cluster647.iiht.tech:9443/oidcclient/
+[AUDIT   ] CWWKT0028I: Web application moved (default_host): https://w2cluster647.iiht.tech:9443/jwt/
+[AUDIT   ] CWWKT0028I: Web application moved (default_host): https://w2cluster647.iiht.tech:9443/appidSample/
+[AUDIT   ] CWWKT0028I: Web application moved (default_host): https://w2cluster647.iiht.tech:9443/oauth2/
+[AUDIT   ] CWWKF0012I: The server installed the following features: [appSecurity-2.0, distributedMap-1.0, federatedRegistry-1.0, jndi-1.0, json-1.0, jsp-2.2, ldapRegistry-3.0, oauth-2.0, openidConnectClient-1.0, servlet-3.1, ssl-1.0].
+[AUDIT   ] CWWKF0011I: The sample server is ready to run a smarter planet. The sample server started in 6.423 seconds.
+[ERROR   ] SRVE0315E: An exception occurred: java.lang.Throwable: java.lang.IllegalStateException: Cannot forward. Response already committed.
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5079)
+	at [internal classes]
+Caused by: java.lang.IllegalStateException: Cannot forward. Response already committed.
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.dispatch(WebAppRequestDispatcher.java:1153)
+	... 1 more
+
+[WARNING ] SRVE8115W: WARNING: Cannot set status. Response already committed.
+[WARNING ] SRVE8094W: WARNING: Cannot set header. Response already committed.  Stack trace of errant attempt to set header: 
+        at com.ibm.ws.webcontainer.srt.SRTServletResponse.addHeader(SRTServletResponse.java:2199)
+        at [internal classes].(Unknown Source)
+

@@ -1,0 +1,6 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      1   25/11/20 19:38:54:951 IST   25/11/20 19:38:54:951 IST java.security.PrivilegedActionException com.ibm.ws.security.openidconnect.clients.common.OIDCClientAuthenticatorUtil 380
+                                                                            - C:\Users\w2cluster589\Documents\virtualLabsNov02\app-id-sample-java\WebApplication\target\liberty\wlp\usr\servers\sample\logs\ffdc\ffdc_20.11.25_19.38.54.0.log
+------+------+---------------------------+---------------------------+---------------------------

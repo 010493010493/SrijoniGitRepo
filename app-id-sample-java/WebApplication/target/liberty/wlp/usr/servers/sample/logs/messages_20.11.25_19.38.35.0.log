@@ -1,0 +1,13 @@
+********************************************************************************
+product = Open Liberty 20.0.0.5 (wlp-1.0.40.cl200520200429-1655)
+wlp.install.dir = C:/Users/w2cluster589/Documents/virtualLabsNov02/app-id-sample-java/WebApplication/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk1.8.0_161\jre
+java.version = 1.8.0_161
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_161-b12)
+os = Windows 10 (10.0; amd64) (en_IN)
+process = 8944@w2cluster647
+********************************************************************************
+[25/11/20 19:37:15:900 IST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server sample has been launched.
+[25/11/20 19:37:17:154 IST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1.534 seconds
+[25/11/20 19:38:31:690 IST] 00000011 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Wednesday, 25 November, 2020 at 7:38 PM. The server sample is shutting down.
+[25/11/20 19:38:31:763 IST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server sample stopped after 1 minutes, 33.38 seconds.

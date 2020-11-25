@@ -1,0 +1,91 @@
+------Start of DE processing------ = [25/11/20 19:38:54:953 IST]
+Exception = java.security.PrivilegedActionException
+Source = com.ibm.ws.security.openidconnect.clients.common.OIDCClientAuthenticatorUtil
+probeid = 380
+Stack Dump = java.security.PrivilegedActionException: java.net.MalformedURLException: For input string: "${env.APPID_SAMPLE_SSL_PORT}"
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.ibm.ws.security.openidconnect.clients.common.OIDCClientAuthenticatorUtil.getRedirectUrlFromServerToClient(OIDCClientAuthenticatorUtil.java:363)
+	at com.ibm.ws.security.openidconnect.client.internal.OidcClientConfigImpl.getRedirectUrlFromServerToClient(OidcClientConfigImpl.java:1265)
+	at com.ibm.ws.security.openidconnect.clients.common.OIDCClientAuthenticatorUtil.setRedirectUrlIfNotDefined(OIDCClientAuthenticatorUtil.java:344)
+	at com.ibm.ws.security.openidconnect.clients.common.OIDCClientAuthenticatorUtil.handleRedirectToServer(OIDCClientAuthenticatorUtil.java:105)
+	at com.ibm.ws.security.openidconnect.clients.common.OIDCClientAuthenticatorUtil.authenticate(OIDCClientAuthenticatorUtil.java:246)
+	at com.ibm.ws.security.openidconnect.client.OidcClientAuthenticator.authenticate(OidcClientAuthenticator.java:102)
+	at com.ibm.ws.security.openidconnect.client.internal.OidcClientImpl.authenticate(OidcClientImpl.java:425)
+	at com.ibm.ws.security.openidconnect.client.internal.OidcClientImpl.authenticate(OidcClientImpl.java:367)
+	at com.ibm.ws.security.openidconnect.client.internal.OidcClientImpl.authenticate(OidcClientImpl.java:310)
+	at com.ibm.ws.webcontainer.security.WebProviderAuthenticatorProxy.handleOidcClient(WebProviderAuthenticatorProxy.java:598)
+	at com.ibm.ws.webcontainer.security.WebProviderAuthenticatorProxy.authenticate(WebProviderAuthenticatorProxy.java:466)
+	at com.ibm.ws.webcontainer.security.WebAuthenticatorProxy.authenticate(WebAuthenticatorProxy.java:68)
+	at com.ibm.ws.webcontainer.security.WebAppSecurityCollaboratorImpl.authenticateRequest(WebAppSecurityCollaboratorImpl.java:1211)
+	at com.ibm.ws.webcontainer.security.WebAppSecurityCollaboratorImpl.setAuthenticatedSubjectIfNeeded(WebAppSecurityCollaboratorImpl.java:833)
+	at com.ibm.ws.webcontainer.security.WebAppSecurityCollaboratorImpl.optionallyAuthenticateUnprotectedResource(WebAppSecurityCollaboratorImpl.java:790)
+	at com.ibm.ws.webcontainer.security.WebAppSecurityCollaboratorImpl.determineWebReply(WebAppSecurityCollaboratorImpl.java:960)
+	at com.ibm.ws.webcontainer.security.WebAppSecurityCollaboratorImpl.performSecurityChecks(WebAppSecurityCollaboratorImpl.java:656)
+	at com.ibm.ws.webcontainer.security.WebAppSecurityCollaboratorImpl.preInvoke(WebAppSecurityCollaboratorImpl.java:574)
+	at com.ibm.wsspi.webcontainer.collaborator.CollaboratorHelper.preInvokeCollaborators(CollaboratorHelper.java:459)
+	at com.ibm.ws.webcontainer.osgi.collaborator.CollaboratorHelperImpl.preInvokeCollaborators(CollaboratorHelperImpl.java:270)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1114)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5021)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1134)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:415)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:374)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:551)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:484)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:346)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:317)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.determineNextChannel(SSLConnectionLink.java:1100)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.readyInboundPostHandshake(SSLConnectionLink.java:757)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink$MyHandshakeCompletedCallback.complete(SSLConnectionLink.java:427)
+	at com.ibm.ws.channel.ssl.internal.SSLUtils.handleHandshake(SSLUtils.java:953)
+	at com.ibm.ws.channel.ssl.internal.SSLHandshakeIOCallback.complete(SSLHandshakeIOCallback.java:85)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.MalformedURLException: For input string: "${env.APPID_SAMPLE_SSL_PORT}"
+	at java.net.URL.<init>(URL.java:627)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+	at com.ibm.ws.security.openidconnect.clients.common.OIDCClientAuthenticatorUtil$1.run(OIDCClientAuthenticatorUtil.java:366)
+	... 46 more
+Caused by: java.lang.NumberFormatException: For input string: "${env.APPID_SAMPLE_SSL_PORT}"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:569)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at java.net.URLStreamHandler.parseURL(URLStreamHandler.java:222)
+	at java.net.URL.<init>(URL.java:622)
+	... 49 more
+
+Dump of callerThis
+Object type = com.ibm.ws.security.openidconnect.clients.common.OIDCClientAuthenticatorUtil
+  tc = class com.ibm.websphere.ras.TraceComponent@14578f2f
+    strings[0] = "TraceComponent[com.ibm.ws.security.openidconnect.clients.common.OIDCClientAuthenticatorUtil,class com.ibm.ws.security.openidconnect.clients.common.OIDCClientAuthenticatorUtil,[OPENIDCONNECT],com.ibm.ws.security.openidconnect.clients.common.resources.OidcClientMessages,null]"
+  sslSupport = null
+  jose4jUtil = null
+  badStateCount = 0
+  OIDC_COOKIES = class java.lang.String[4]
+    String[0] = "WASOidcState"
+    String[1] = "WASReqURLOidc"
+    String[2] = "WASOidcCode"
+    String[3] = "WASOidcNonce"
+  serialVersionUID = -2570500656335283905
+
+Dump of objectArray[0]
+Object type = java.lang.String
+  String value = "MyRP"
+
+Dump of objectArray[1]
+Object type = java.lang.String
+  String value = "/oidcclient"
+
+Dump of objectArray[2]
+Object type = java.lang.String
+  String value = "https://${env.APPID_SAMPLE_HOST}:${env.APPID_SAMPLE_SSL_PORT}"
+

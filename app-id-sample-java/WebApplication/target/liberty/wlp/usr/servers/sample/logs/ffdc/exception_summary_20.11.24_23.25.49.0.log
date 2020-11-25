@@ -1,0 +1,8 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      2   24/11/20 23:25:49:519 IST   24/11/20 23:26:34:956 IST java.security.PrivilegedActionException com.ibm.ws.security.openidconnect.clients.common.OIDCClientAuthenticatorUtil 380
+                                                                            - C:\Users\w2cluster589\Documents\virtualLabsNov02\app-id-sample-java\WebApplication\target\liberty\wlp\usr\servers\sample\logs\ffdc\ffdc_20.11.24_23.25.49.0.log
+     1      1   25/11/20 19:36:56:178 IST   25/11/20 19:36:56:178 IST java.io.FileNotFoundException com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator generateXML
+                                                                            - C:\Users\w2cluster589\Documents\virtualLabsNov02\app-id-sample-java\WebApplication\target\liberty\wlp\usr\servers\sample\logs\ffdc\ffdc_20.11.25_19.36.56.0.log
+------+------+---------------------------+---------------------------+---------------------------

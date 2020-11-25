@@ -1,0 +1,300 @@
+------Start of DE processing------ = [24/11/20 21:35:51:459 IST]
+Exception = com.ibm.wsspi.channelfw.exception.InvalidRuntimeStateException
+Source = com.ibm.ws.channelfw.internal.ChannelFrameworkImpl.initChain
+probeid = 2158
+Stack Dump = com.ibm.wsspi.channelfw.exception.InvalidRuntimeStateException: Chain cannot be initialized, its already in the runtime.
+	at com.ibm.ws.channelfw.internal.ChannelFrameworkImpl.initChain(ChannelFrameworkImpl.java:2293)
+	at com.ibm.ws.http.internal.HttpChain.update(HttpChain.java:491)
+	at com.ibm.ws.http.internal.HttpEndpointImpl$5.run(HttpEndpointImpl.java:215)
+	at com.ibm.ws.http.internal.HttpEndpointImpl$2.run(HttpEndpointImpl.java:170)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dump of callerThis
+Object type = com.ibm.ws.channelfw.internal.ChannelFrameworkImpl
+  
+**********************************
+**    Outbound Conn Factories   **
+**********************************
+
+**********************************
+**       Channel Factories      **
+**********************************
+ChannelFactoryData: class com.ibm.ws.http.channel.internal.inbound.HttpInboundChannelFactory devices=[interface com.ibm.wsspi.tcpchannel.TCPConnectionContext] app=interface com.ibm.wsspi.http.channel.inbound.HttpInboundServiceContext
+ChannelFactoryData: class com.ibm.ws.tcpchannel.internal.TCPChannelFactory devices=[] app=interface com.ibm.wsspi.tcpchannel.TCPConnectionContext
+ChannelFactoryData: class com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherFactory devices=[interface com.ibm.wsspi.http.channel.inbound.HttpInboundServiceContext] app=null
+
+**********************************
+**   Channel Configurations     **
+**********************************
+ChannelData:
+	name = "HTTP-defaultHttpEndpoint
+	discweight = 10
+	factoryType = class com.ibm.ws.http.channel.internal.inbound.HttpInboundChannelFactory
+	deviceInterface = interface com.ibm.wsspi.tcpchannel.TCPConnectionContext
+	properties: 43
+		key = limitFieldSize, value = 32768
+		key = chainData, value = CHAIN-defaultHttpEndpoint
+		key = v0CookieDateRFC1123compat, value = true
+		key = DoNotAllowDuplicateSetCookies, value = false
+		key = writeTimeout, value = 60
+		key = config.id, value = com.ibm.ws.http.options[defaultHttpOptions]
+		key = limitNumHeaders, value = 500
+		key = service.factoryPid, value = com.ibm.ws.http.options
+		key = compressionListByTypesInternal, value = null
+		key = decompressionTolerance, value = 3
+		key = component.id, value = 141
+		key = sameSiteNoneInternal, value = null
+		key = config.source, value = file
+		key = AutoDecompression, value = true
+		key = NoCacheCookiesControl, value = true
+		key = config.overrides, value = true
+		key = incomingBodyBufferSize, value = 32768
+		key = useAutoCompressionInternal, value = false
+		key = id, value = defaultHttpOptions
+		key = sameSiteLaxInternal, value = null
+		key = maxConcurrentStreams, value = 200
+		key = proxiesInternal, value = null
+		key = chainName, value = CHAIN-defaultHttpEndpoint
+		key = keepAliveEnabled, value = true
+		key = maxKeepAliveRequests, value = 100
+		key = service.vendor, value = IBM
+		key = decompressionRatioLimit, value = 200
+		key = http2ConnectionIdleTimeout, value = 0
+		key = component.name, value = com.ibm.ws.http.options
+		key = serverPreferredAlgorithmInternal, value = null
+		key = MessageSizeLimit, value = -1
+		key = maxFrameSize, value = 57344
+		key = sameSiteStrictInternal, value = null
+		key = service.pid, value = com.ibm.ws.http.options_9
+		key = persistTimeout, value = 30
+		key = accessLogID, value = defaultHttpEndpoint
+		key = config.displayId, value = httpOptions[defaultHttpOptions]
+		key = readTimeout, value = 60
+		key = useRemoteIpInAccessLogInternal, value = null
+		key = useRemoteIpInternal, value = false
+		key = removeServerHeader, value = false
+		key = sameSiteInternal, value = false
+		key = service.ranking, value = -1
+	childId = 2
+	children: 1
+		child = HTTP-defaultHttpEndpoint_CFINTERNAL_CHILD_1
+ChannelData:
+	name = defaultHttpEndpoint
+	discweight = 10
+	factoryType = class com.ibm.ws.tcpchannel.internal.TCPChannelFactory
+	deviceInterface = null
+	properties: 28
+		key = listeningPort, value = 9080
+		key = chainData, value = CHAIN-defaultHttpEndpoint
+		key = config.id, value = com.ibm.ws.tcpchannel.options[defaultTCPOptions]
+		key = type, value = TCPChannel
+		key = service.factoryPid, value = com.ibm.ws.tcpchannel.options
+		key = inactivityTimeout, value = 60000
+		key = hostname, value = *
+		key = component.id, value = 135
+		key = config.source, value = file
+		key = addressIncludeList, value = 
+		key = addressExcludeList, value = 
+		key = config.overrides, value = true
+		key = waitToAccept, value = false
+		key = id, value = defaultTCPOptions
+		key = endPointName, value = defaultHttpEndpoint
+		key = chainName, value = CHAIN-defaultHttpEndpoint
+		key = service.vendor, value = IBM
+		key = hostNameIncludeList, value = 
+		key = component.name, value = com.ibm.ws.tcpchannel.options
+		key = service.pid, value = com.ibm.ws.tcpchannel.options_2
+		key = acceptThread, value = false
+		key = soReuseAddr, value = true
+		key = maxOpenConnections, value = 128000
+		key = config.displayId, value = tcpOptions[defaultTCPOptions]
+		key = port, value = 9080
+		key = portOpenRetries, value = 0
+		key = service.ranking, value = -1
+		key = hostNameExcludeList, value = 
+	childId = 1
+	children: 1
+		child = defaultHttpEndpoint_CFINTERNAL_CHILD_0
+ChannelData:
+	name = HTTPD-defaultHttpEndpoint
+	discweight = 10
+	factoryType = class com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherFactory
+	deviceInterface = interface com.ibm.wsspi.http.channel.inbound.HttpInboundServiceContext
+	properties: 3
+		key = chainName, value = CHAIN-defaultHttpEndpoint
+		key = chainData, value = CHAIN-defaultHttpEndpoint
+		key = httpEndpoint, value = com.ibm.ws.http_6
+	childId = 2
+	children: 1
+		child = HTTPD-defaultHttpEndpoint_CFINTERNAL_CHILD_1
+
+**********************************
+**    Chain Configurations      **
+**********************************
+ChainData: CHAIN-defaultHttpEndpoint type=0 channels [defaultHttpEndpoint,HTTP-defaultHttpEndpoint,HTTPD-defaultHttpEndpoint] listeners [class com.ibm.ws.http.internal.HttpChain]
+**********************************
+**          Chain Groups        **
+**********************************
+
+**********************************
+**      Runtime Channels        **
+**********************************
+Channel: defaultHttpEndpoint_CFINTERNAL_CHILD_0
+	State: 1
+	Referenced Chains:
+		CHAIN-defaultHttpEndpoint
+Channel: HTTP-defaultHttpEndpoint_CFINTERNAL_CHILD_1
+	State: 1
+	Referenced Chains:
+		CHAIN-defaultHttpEndpoint
+Channel: HTTPD-defaultHttpEndpoint_CFINTERNAL_CHILD_1
+	State: 1
+	Referenced Chains:
+		CHAIN-defaultHttpEndpoint
+
+**********************************
+**       Runtime Chains         **
+**********************************
+Chain: CHAIN-defaultHttpEndpoint
+	type = 0
+	state: 1
+	Referenced Channels:
+		defaultHttpEndpoint_CFINTERNAL_CHILD_0
+		HTTP-defaultHttpEndpoint_CFINTERNAL_CHILD_1
+		HTTPD-defaultHttpEndpoint_CFINTERNAL_CHILD_1
+"
+
+Dump of objectArray[0]
+Object type = com.ibm.ws.channelfw.internal.chains.InboundChain
+  tc = class com.ibm.websphere.ras.TraceComponent@69a4770d
+    strings[0] = "TraceComponent[com.ibm.ws.channelfw.internal.chains.InboundChain,class com.ibm.ws.channelfw.internal.chains.InboundChain,[ChannelFramework],com.ibm.ws.channelfw.internal.resources.ChannelfwMessages,null]"
+  tc = class com.ibm.websphere.ras.TraceComponent@675b606a
+    strings[0] = "TraceComponent[com.ibm.ws.channelfw.internal.chains.Chain,class com.ibm.ws.channelfw.internal.chains.Chain,[ChannelFramework],com.ibm.ws.channelfw.internal.resources.ChannelfwMessages,null]"
+  channels = interface com.ibm.wsspi.channelfw.InboundChannel[3]
+    InboundChannel[0] = class com.ibm.ws.tcpchannel.internal.NioTCPChannel@5ca3899b
+      strings[0] = "TCP Channel: defaultHttpEndpoint"
+      strings[1] = "hostname=*"
+      strings[2] = "port=9080"
+      strings[3] = "maxOpenConnections=128000"
+      strings[4] = "addressExcludeList=null"
+      strings[5] = "hostNameExcludeList=null"
+      strings[6] = "addressIncludeList=null"
+      strings[7] = "hostNameIncludeList=null"
+      strings[8] = "listenBacklog=511"
+      strings[9] = "newConnectionBufferSize=8192"
+      strings[10] = "portOpenRetries=0"
+      strings[11] = "soReuseAddr=true"
+      strings[12] = "inactivityTimeout=60000"
+      strings[13] = "workGroup=Default"
+      strings[14] = "allocateBuffersDirect=true"
+      strings[15] = "tcpNoDelay=true"
+      strings[16] = "receiveBufferSize=-1"
+      strings[17] = "sendBufferSize=-1"
+      strings[18] = "commOption=1"
+      strings[19] = "soLinger=-1"
+    InboundChannel[1] = class com.ibm.ws.http.channel.internal.inbound.HttpInboundChannel@19d5881
+      tc = class com.ibm.websphere.ras.TraceComponent@51223707
+      STATE_STOPPED = 0
+      STATE_STOPPING = 1
+      STATE_RUNNING = 2
+      myObjectFactory = class com.ibm.ws.http.channel.internal.HttpObjectFactory@24bf88a3
+      channelFactory = class com.ibm.ws.http.channel.internal.inbound.HttpInboundChannelFactory@5d378c4c
+      myConfig = class com.ibm.ws.http.channel.internal.HttpChannelConfig@2bc92c44
+      myState = 0
+      config = class com.ibm.ws.channelfw.internal.ChildChannelDataImpl@40a09e10
+      discriminationProcess = class com.ibm.ws.channelfw.internal.discrim.DiscriminationProcessImpl@22aa9ce6
+    InboundChannel[2] = class com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherChannel@2940b219
+      tc = class com.ibm.websphere.ras.TraceComponent@e3c4d30
+      myFactory = class com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherFactory@400f4306
+      myConfig = class com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherConfig@3439a919
+      chfwConfig = class com.ibm.ws.channelfw.internal.ChildChannelDataImpl@67632c0b
+      activeConnections = class java.util.concurrent.atomic.AtomicInteger@54d44b8d
+      quiescing = false
+      stop0Called = false
+      serialVersionUID = -5133447759493145932
+  chainData = class com.ibm.ws.channelfw.internal.ChainDataImpl@72a5ba5e
+    serialVersionUID = 4499898682104370008
+    tc = class com.ibm.websphere.ras.TraceComponent@4687cad7
+      strings[0] = "TraceComponent[com.ibm.ws.channelfw.internal.ChainDataImpl,class com.ibm.ws.channelfw.internal.ChainDataImpl,[ChannelFramework],com.ibm.ws.channelfw.internal.resources.ChannelfwMessages,null]"
+    name = "CHAIN-defaultHttpEndpoint"
+    type = class com.ibm.websphere.channelfw.FlowType@2e6a450
+      INBOUND = class com.ibm.websphere.channelfw.FlowType@2e6a450
+      OUTBOUND = class com.ibm.websphere.channelfw.FlowType@e0e3876
+      _values = class com.ibm.websphere.channelfw.FlowType[2]
+      serialVersionUID = -147726133665159700
+      _ordinal = 0
+    channelDataArray = interface com.ibm.websphere.channelfw.ChannelData[3]
+      ChannelData[0] = class com.ibm.ws.channelfw.internal.ChildChannelDataImpl@2b56c1c
+      ChannelData[1] = class com.ibm.ws.channelfw.internal.ChildChannelDataImpl@40a09e10
+      ChannelData[2] = class com.ibm.ws.channelfw.internal.ChildChannelDataImpl@67632c0b
+    chainEventListeners = class java.util.concurrent.CopyOnWriteArraySet@498c3f34
+      serialVersionUID = 5457747651344034263
+      al = class java.util.concurrent.CopyOnWriteArrayList@5530a037
+      MAX_ARRAY_SIZE = 2147483639
+    channelFactoryHash = -1309522867
+    properties = class java.util.HashMap@6b506485
+      serialVersionUID = 362498820763181265
+      DEFAULT_INITIAL_CAPACITY = 16
+      MAXIMUM_CAPACITY = 1073741824
+      DEFAULT_LOAD_FACTOR = 0.75
+      TREEIFY_THRESHOLD = 8
+      UNTREEIFY_THRESHOLD = 6
+      MIN_TREEIFY_CAPACITY = 64
+      table = class java.util.HashMap$Node[16]
+      entrySet = null
+      size = 3
+      modCount = 3
+      threshold = 12
+      loadFactor = 0.75
+      keySet = null
+      values = null
+    enabled = true
+    endPoint = null
+  state = class com.ibm.ws.channelfw.internal.RuntimeState@50bcac6d
+    ordinal = 1
+    values = 4
+    UNINITIALIZED = class com.ibm.ws.channelfw.internal.RuntimeState@438cdef
+      ordinal = 0
+      values = 4
+      UNINITIALIZED = class com.ibm.ws.channelfw.internal.RuntimeState@438cdef
+      INITIALIZED = class com.ibm.ws.channelfw.internal.RuntimeState@50bcac6d
+      STARTED = class com.ibm.ws.channelfw.internal.RuntimeState@3152c6c1
+      QUIESCED = class com.ibm.ws.channelfw.internal.RuntimeState@5ea51872
+    INITIALIZED = class com.ibm.ws.channelfw.internal.RuntimeState@50bcac6d
+    STARTED = class com.ibm.ws.channelfw.internal.RuntimeState@3152c6c1
+      ordinal = 2
+      values = 4
+      UNINITIALIZED = class com.ibm.ws.channelfw.internal.RuntimeState@438cdef
+      INITIALIZED = class com.ibm.ws.channelfw.internal.RuntimeState@50bcac6d
+      STARTED = class com.ibm.ws.channelfw.internal.RuntimeState@3152c6c1
+      QUIESCED = class com.ibm.ws.channelfw.internal.RuntimeState@5ea51872
+    QUIESCED = class com.ibm.ws.channelfw.internal.RuntimeState@5ea51872
+      ordinal = 3
+      values = 4
+      UNINITIALIZED = class com.ibm.ws.channelfw.internal.RuntimeState@438cdef
+      INITIALIZED = class com.ibm.ws.channelfw.internal.RuntimeState@50bcac6d
+      STARTED = class com.ibm.ws.channelfw.internal.RuntimeState@3152c6c1
+      QUIESCED = class com.ibm.ws.channelfw.internal.RuntimeState@5ea51872
+  channelDataArray = interface com.ibm.websphere.channelfw.ChannelData[3]
+    ChannelData[0] = class com.ibm.ws.channelfw.internal.ChildChannelDataImpl@2b56c1c
+      serialVersionUID = -220865176896833236
+      parent = class com.ibm.ws.channelfw.internal.ChannelDataImpl@6ac120f6
+      name = "defaultHttpEndpoint_CFINTERNAL_CHILD_0"
+      isInbound = true
+    ChannelData[1] = class com.ibm.ws.channelfw.internal.ChildChannelDataImpl@40a09e10
+      serialVersionUID = -220865176896833236
+      parent = class com.ibm.ws.channelfw.internal.ChannelDataImpl@46bd97cd
+      name = "HTTP-defaultHttpEndpoint_CFINTERNAL_CHILD_1"
+      isInbound = true
+    ChannelData[2] = class com.ibm.ws.channelfw.internal.ChildChannelDataImpl@67632c0b
+      serialVersionUID = -220865176896833236
+      parent = class com.ibm.ws.channelfw.internal.ChannelDataImpl@1732909
+      name = "HTTPD-defaultHttpEndpoint_CFINTERNAL_CHILD_1"
+      isInbound = true
+  stopChainTask = null
+
