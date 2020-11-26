@@ -3,9 +3,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata: 
   labels: 
-    app: eurekaserviceproject
+    app: eurekaserver
     version: v1
-  name: eurekaserviceproject
+  name: eurekaserver
 spec: 
   strategy: # Default, so usually not specified
     type: RollingUpdate
@@ -15,20 +15,27 @@ spec:
   replicas: 1
   selector: 
     matchLabels: 
-      app: eurekaserviceproject
+      app: eurekaserver
       version: v1
   template: 
     metadata: 
       labels: 
-        app: eurekaserviceproject
+        app: eurekaserver
         version: v1
 
     spec: 
 
       containers: 
         - 
-          image: "010493010493/eurekaservice"
+          image: "010493010493/eurekaservicev1:latest"
           imagePullPolicy: Always
-          name: eurekaserviceproject
+          name: eurekaserver
+          ports: 
+#          - containerPort: 8081   
+          - name: httpport
+            containerPort: 8100
+            hostPort: 8100      
+  
 
-                          
+              
+                    
