@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 import javax.crypto.spec.SecretKeySpec;
 import javax.xml.bind.DatatypeConverter;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
@@ -17,6 +18,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.ibm.accountlogin.service.AccountLoginService;
+
 import org.springframework.security.core.GrantedAuthority;
 
 import io.jsonwebtoken.Claims;
@@ -26,6 +30,9 @@ import io.jsonwebtoken.SignatureAlgorithm;
 
 @RestController
 public class AccountLoginController {
+	
+	@Autowired
+	AccountLoginService service;
 	
 	@RequestMapping("/user")
     public Principal user(Principal principal) {
@@ -46,6 +53,7 @@ public class AccountLoginController {
     public void order(Principal principal){
     	String token = getJWTToken(principal.getName());
 		System.out.println("Srijoni "+token);
+		service.getOrder(token);
     }
     
     private String getJWTToken(String username) {
